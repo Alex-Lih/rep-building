@@ -159,6 +159,27 @@ h1, h2, h3, h4, h5, h6 {font-weight: inherit; font-size: inherit;}
      }
 }
 
+.looking-for {
+    background: #F8FDFE;
+    padding: 75px 0 75px 0;
+}
+
+.popular-places {
+    padding: 120px 0 120px 0;
+}
+.choose-us {
+    background-color: #F8FDFE;
+    padding: 93px 0 100px 0;
+}
+.people-say {
+    background-color: #FFF8F7;
+    padding: 96px 0 97px 0;
+}
+
+.footer {
+    background-color: #F8FDFE;
+    height: 491px;
+}
 
 // Подключение файлов UI стилей, форм и готовых классов
 //@import "forms.scss";
