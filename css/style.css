@@ -252,9 +252,94 @@ h1, h2, h3, h4, h5, h6 {
   padding: 120px 0 120px 0;
 }
 
+.popular-places .popular-places__container .popular-places__text h3 {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.popular-places .popular-places__container .popular-places__text p {
+  margin-top: 20px;
+  color: #555555;
+  font-size: 20px;
+  text-align: center;
+}
+
+.popular-places .popular-places__container .popular-places__img {
+  height: 540px;
+  margin-top: 40px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+}
+
+.popular-places .popular-places__container .popular-places__img .block1 {
+  background-image: url("/img/bankladesh.jpg");
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 2;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.popular-places .popular-places__container .popular-places__img .block2 {
+  background: url("/img/japan.jpg");
+}
+
+.popular-places .popular-places__container .popular-places__img .block3 {
+  background: url("/img/malaysia.jpg");
+}
+
+.popular-places .popular-places__container .popular-places__img .block4 {
+  background: url("/img/london.jpg");
+}
+
+.popular-places .popular-places__container .popular-places__img .block5 {
+  background: url("/img/india.jpg");
+}
+
 .choose-us {
   background-color: #F8FDFE;
-  padding: 93px 0 100px 0;
+}
+
+.choose-us .choose-us__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.choose-us .choose-us__container .choose-us__text {
+  margin-top: 93px;
+}
+
+.choose-us .choose-us__container .choose-us__text h3 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.choose-us .choose-us__container .choose-us__text p {
+  margin-top: 20px;
+  width: 596px;
+  line-height: 30px;
+  color: #555555;
+  font-size: 18px;
+}
+
+.choose-us .choose-us__container .choose-us__text button {
+  height: 56px;
+  width: 190px;
+  background-color: #19BCE4;
+  color: #FFFFFF;
+  border-radius: 6px;
+  font-size: 18px;
+  margin-top: 40px;
+}
+
+.choose-us .choose-us__container .choose-us__img {
+  margin-left: 36px;
 }
 
 .people-say {
