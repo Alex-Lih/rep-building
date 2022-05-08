@@ -248,6 +248,69 @@ h1, h2, h3, h4, h5, h6 {
   padding: 75px 0 75px 0;
 }
 
+.looking-for .looking-for__container h3 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.looking-for .looking-for__container .looking-for__block {
+  margin-top: 68px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.looking-for .looking-for__container .looking-for__block .looking-for__plus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.looking-for .looking-for__container .looking-for__block .looking-for__plus .plus {
+  height: 118px;
+  width: 541px;
+  background-color: white;
+  border: rgba(25, 188, 228, 0.2) solid 1px;
+}
+
+.looking-for .looking-for__container .looking-for__block .looking-for__plus .plus__block {
+  padding: 28px 0 34px 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.looking-for .looking-for__container .looking-for__block .looking-for__plus .plus__block .plus__block-text {
+  margin-left: 28px;
+}
+
+.looking-for .looking-for__container .looking-for__block .looking-for__plus .plus__block .plus__block-text h4 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.looking-for .looking-for__container .looking-for__block .looking-for__plus .plus__block .plus__block-text p {
+  width: 370px;
+  color: #555555;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 7px;
+}
+
 .popular-places {
   padding: 120px 0 120px 0;
 }
@@ -259,7 +322,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .popular-places .popular-places__container .popular-places__text p {
-  margin-top: 20px;
+  margin-top: 24px;
   color: #555555;
   font-size: 20px;
   text-align: center;
@@ -267,7 +330,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .popular-places .popular-places__container .popular-places__img {
   height: 540px;
-  margin-top: 40px;
+  margin-top: 44px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr;

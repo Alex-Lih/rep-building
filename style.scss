@@ -162,6 +162,48 @@ h1, h2, h3, h4, h5, h6 {font-weight: inherit; font-size: inherit;}
 .looking-for {
     background: #F8FDFE;
     padding: 75px 0 75px 0;
+    .looking-for__container {
+        h3 {
+            font-size: 48px;
+            font-weight: bold;
+        }
+        .looking-for__block {
+            margin-top: 68px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            .looking-for__plus {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                .plus {
+                    height: 118px;
+                    width: 541px;
+                    background-color: white;
+                    border: rgba(25, 188, 228, 0.2) solid 1px;
+                }
+                .plus__block {
+                    padding: 28px 0 34px 24px;
+                    display: flex;
+                    .plus__block-text {
+                        margin-left: 28px;
+                        h4 {
+                            font-size: 20px;
+                            font-weight: 500;
+                        }
+                        p {
+                            width: 370px;
+                            color: #555555;
+                            font-size: 14px;
+                            line-height: 20px;
+                            margin-top: 7px;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
 }
 
 // Блок "Most Popular Places"
@@ -175,7 +217,7 @@ h1, h2, h3, h4, h5, h6 {font-weight: inherit; font-size: inherit;}
                 text-align: center;
             }
             p {
-                margin-top: 20px;
+                margin-top: 24px;
                 color: #555555;
                 font-size: 20px;
                 text-align: center;
@@ -183,7 +225,7 @@ h1, h2, h3, h4, h5, h6 {font-weight: inherit; font-size: inherit;}
         }
         .popular-places__img {
             height: 540px;
-            margin-top: 40px;
+            margin-top: 44px;
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             grid-gap: 30px;
