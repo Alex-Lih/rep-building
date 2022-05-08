@@ -156,12 +156,77 @@ h1, h2, h3, h4, h5, h6 {font-weight: inherit; font-size: inherit;}
                 font-size: 20px;
             }
         }
-     }
+    }
+}
+
+.about-us {
+    padding: 75px 0 165px 0;
+    .about-us__container {
+        display: flex;
+        .about-us__image {
+            .about-us__divan {
+                position: absolute;
+                height: 160px;
+                width: 240px;
+                margin-top: 446px;
+                margin-left: -202px;
+            }
+        }
+        .about-us__block-text {
+            margin-left: 80px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .text {
+                .text__about {
+                    font-size: 20px;
+                }
+                h3 {
+                    font-size: 48px;
+                    font-weight: bold;
+                    line-height: 60px;
+                    margin-top: 10px;
+                }
+                .text__paragraph {
+                    font-size: 20px;
+                    color: #555555;
+                    margin-top: 24px;
+                    width: 479px;
+                    line-height: 27px;
+                }
+            }
+            .about-us__icons {
+                display: flex;
+                justify-content: space-between;
+                div {
+                    h3 {
+                        font-size: 24px;
+                        font-weight: 500;
+                        margin-top: 24px;
+                    }
+                    p {
+                        font-size: 14px;
+                        color: #555555;
+                        width: 229px;
+                        margin-top: 16px;
+                    }
+                }
+            }
+            button {
+                height: 56px;
+                width: 169px;
+                background-color: #19BCE4;
+                color: #FFFFFF;
+                border-radius: 6px;
+                font-size: 18px;
+            }
+        }
+    }
 }
 
 .looking-for {
     background: #F8FDFE;
-    padding: 75px 0 75px 0;
+    padding: 120px 0 165px 0;
     .looking-for__container {
         h3 {
             font-size: 48px;
@@ -199,7 +264,6 @@ h1, h2, h3, h4, h5, h6 {font-weight: inherit; font-size: inherit;}
                             margin-top: 7px;
                         }
                     }
-
                 }
             }
         }
