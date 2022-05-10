@@ -492,8 +492,125 @@ h1, h2, h3, h4, h5, h6 {
   padding: 96px 0 97px 0;
 }
 
+.people-say .people-say__container .people-say__text h3 {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.people-say .people-say__container .people-say__text p {
+  margin-top: 24px;
+  color: #555555;
+  font-size: 20px;
+  text-align: center;
+}
+
+.people-say .people-say__container .people-say__profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.people-say .people-say__container .people-say__profile .people-say__block {
+  height: 280px;
+  width: 370px;
+  background-color: white;
+  margin-top: 132px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.people-say .people-say__container .people-say__profile .people-say__block .photo {
+  margin-top: -72px;
+}
+
+.people-say .people-say__container .people-say__profile .people-say__block h3 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 16px;
+}
+
+.people-say .people-say__container .people-say__profile .people-say__block .people-say__stars {
+  margin-top: 8px;
+}
+
+.people-say .people-say__container .people-say__profile .people-say__block p {
+  width: 293px;
+  font-size: 14px;
+  color: #555555;
+  line-height: 20px;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.white-block {
+  height: 294px;
+  background-color: white;
+}
+
 .footer {
   background-color: #F8FDFE;
   height: 491px;
+}
+
+.footer .footer__container .footer__subscribe {
+  height: 251px;
+  border-radius: 24px;
+  background-color: #19BCE4;
+  margin-top: -174px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .footer__container .footer__subscribe h3 {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  margin-top: 48px;
+}
+
+.footer .footer__container .footer__subscribe form {
+  position: relative;
+  margin-top: 40px;
+}
+
+.footer .footer__container .footer__subscribe form input {
+  width: 720px;
+  height: 64px;
+  border-radius: 6px;
+  display: block;
+  padding: 0 1.5em;
+  color: #555555;
+}
+
+.footer .footer__container .footer__subscribe form button {
+  position: absolute;
+  height: 48px;
+  width: 120px;
+  border-radius: 6px;
+  background-color: #19BCE4;
+  color: white;
+  font-size: 18px;
+  top: 8px;
+  right: 8px;
 }
 /*# sourceMappingURL=style.css.map */
