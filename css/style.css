@@ -481,6 +481,19 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 6px;
   font-size: 18px;
   margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.choose-us .choose-us__container .choose-us__text button img {
+  margin-left: 12px;
 }
 
 .choose-us .choose-us__container .choose-us__img {
@@ -564,6 +577,58 @@ h1, h2, h3, h4, h5, h6 {
   height: 491px;
 }
 
+.footer .footer__container .footer__down {
+  margin-top: 112px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .footer__container .footer__down .footer__column .footer__text {
+  width: 329px;
+  font-size: 18px;
+  color: #555555;
+  line-height: 27px;
+  margin-top: 20px;
+}
+
+.footer .footer__container .footer__down .footer__column .footer__icons {
+  margin-top: 37px;
+  width: 144px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .footer__container .footer__down .footer__column h3 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.footer .footer__container .footer__down .footer__column ul {
+  margin-top: 40px;
+}
+
+.footer .footer__container .footer__down .footer__column ul li {
+  font-size: 18px;
+  color: #555555;
+  margin-top: 15px;
+}
+
+.footer .footer__container .footer__down .footer__column ul li p {
+  display: inline;
+  margin-left: 5px;
+}
+
 .footer .footer__container .footer__subscribe {
   height: 251px;
   border-radius: 24px;
@@ -600,6 +665,22 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   padding: 0 1.5em;
   color: #555555;
+}
+
+.footer .footer__container .footer__subscribe form input::-webkit-input-placeholder {
+  opacity: 1;
+}
+
+.footer .footer__container .footer__subscribe form input:-ms-input-placeholder {
+  opacity: 1;
+}
+
+.footer .footer__container .footer__subscribe form input::-ms-input-placeholder {
+  opacity: 1;
+}
+
+.footer .footer__container .footer__subscribe form input::placeholder {
+  opacity: 1;
 }
 
 .footer .footer__container .footer__subscribe form button {
