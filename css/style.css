@@ -431,19 +431,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .popular-places .popular-places__container .popular-places__img .block2 {
-  background: url("img/japan.jpg");
+  background: url("/img/japan.jpg");
 }
 
 .popular-places .popular-places__container .popular-places__img .block3 {
-  background: url("img/malaysia.jpg");
+  background: url("/img/malaysia.jpg");
 }
 
 .popular-places .popular-places__container .popular-places__img .block4 {
-  background: url("img/london.jpg");
+  background: url("/img/london.jpg");
 }
 
 .popular-places .popular-places__container .popular-places__img .block5 {
-  background: url("img/india.jpg");
+  background: url("/img/india.jpg");
 }
 
 .choose-us {
