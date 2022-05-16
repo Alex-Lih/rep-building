@@ -294,23 +294,23 @@ h1, h2, h3, h4, h5, h6 {font-weight: inherit; font-size: inherit;}
             grid-template-columns: 1fr 1fr 1fr;
             grid-gap: 30px;
             .block1 {
-                background-image: url("/img/bankladesh.jpg");
+                background-image: url("img/bankladesh.jpg");
                 grid-column-start: 1;
                 grid-column-end: 2;
                 grid-row-start: 1;
                 grid-row-end: 3;
             }
             .block2 {
-                background: url("/img/japan.jpg");
+                background: url("img/japan.jpg");
             }
             .block3 {
-                background: url("/img/malaysia.jpg");
+                background: url("img/malaysia.jpg");
             }
             .block4 {
-                background: url("/img/london.jpg");
+                background: url("img/london.jpg");
             }
             .block5 {
-                background: url("/img/india.jpg");
+                background: url("img/india.jpg");
             }
         }
     }
